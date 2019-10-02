@@ -1,7 +1,5 @@
-hungry=input("are you hungry?")
-if hungry=="yes" and hungry=="Y" and hungry=="y":
-    print("eat samosa")
-    print("eat pizza")
-    print("eat burger")
+hungry=input("Are you hungry?\n >")
+if hungry=="yes" or hungry=="Y" or hungry=="y":
+    print("Eat some Samosas.")
 else:
-    print("do homework")    
+    print("Do the homework.")    
